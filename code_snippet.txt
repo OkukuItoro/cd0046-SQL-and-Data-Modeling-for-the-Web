@@ -111,3 +111,13 @@
   #   Show(start_time="2024-04-15T20:00:00.000Z", venue_id=3, artist_id=3),
   # ])
   # db.session.commit()
+
+  add_all([
+  #   Show(start_time="2019-05-21T21:30:00.000Z", venue_id=1, artist_id=1, start_time1="2019-05-21T21:30:00.000Z"),
+  #   Show(start_time="2019-06-15T23:00:00.000Z", venue_id=3, artist_id=2, start_time1="2019-06-15T23:00:00.000Z"),
+  #   Show(start_time="2020-04-01T20:00:00.000Z", venue_id=3, artist_id=3, start_time1="2020-04-01T20:00:00.000Z"),
+  #   Show(start_time="2022-11-08T20:00:00.000Z", venue_id=3, artist_id=3, start_time1="2022-11-08T20:00:00.000Z"),
+  #   Show(start_time="2023-04-15T20:00:00.000Z", venue_id=2, artist_id=2, start_time1="2023-04-15T20:00:00.000Z"),
+  #   Show(start_time="2024-04-15T20:00:00.000Z", venue_id=3, artist_id=3, start_time1="2024-04-15T20:00:00.000Z"),
+  # ])
+  # db.session.commit()
