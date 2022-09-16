@@ -5,7 +5,7 @@ from wtforms.validators import DataRequired, AnyOf, URL
 import re
 from wtforms import ValidationError
 
-def validate_phone(self, phone):
+def validate_phone(phone):
     us_phone_num = '^([0-9]{3})[-][0-9]{3}[-][0-9]{4}$'
     match = re.search(us_phone_num, phone.data)
     if not match:
